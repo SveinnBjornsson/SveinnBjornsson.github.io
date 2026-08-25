@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboards — Sveinn Björnsson</title>
+<meta name="description" content="Index of live dashboards and sites published by Sveinn Björnsson on GitHub Pages.">
+<style>
+  :root{
+    --navy:#1F3864; --blue:#2E5496; --orange:#ED7D31;
+    --bg:#F3F5F9; --card:#FFFFFF; --line:#DDE3EE; --text:#1B2333; --muted:#5B6678;
+    --lock:#B45309; --lockbg:#FFF4E5; --open:#166534; --openbg:#EAF7EE;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:"Segoe UI",system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;line-height:1.45}
+  a{color:var(--blue)}
+  header{background:var(--navy);color:#fff;padding:28px 20px 24px;border-bottom:4px solid var(--orange)}
+  .wrap{max-width:1040px;margin:0 auto}
+  header h1{margin:0 0 6px;font-size:26px;font-weight:700;letter-spacing:.2px}
+  header p{margin:0;color:#C9D3E6;font-size:14px}
+  header .kicker{display:inline-block;background:var(--orange);color:#fff;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:3px 9px;border-radius:3px;margin-bottom:12px}
+  main{padding:26px 20px 40px}
+  h2{font-size:14px;letter-spacing:1px;text-transform:uppercase;color:var(--blue);margin:26px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--line)}
+  h2:first-child{margin-top:0}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px 18px 14px;box-shadow:0 1px 2px rgba(16,32,64,.05);display:flex;flex-direction:column;gap:8px;transition:box-shadow .15s,transform .15s}
+  .card:hover{box-shadow:0 6px 18px rgba(16,32,64,.10);transform:translateY(-1px)}
+  .card .top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .ticker{display:inline-block;font-weight:700;font-size:12px;color:var(--navy);background:#E8EEF8;border-radius:3px;padding:2px 7px;letter-spacing:.5px}
+  .card h3{margin:2px 0 0;font-size:18px;color:var(--navy)}
+  .card h3 a{color:inherit;text-decoration:none}
+  .card h3 a:hover{text-decoration:underline}
+  .desc{margin:0;color:var(--muted);font-size:14px}
+  .badge{white-space:nowrap;font-size:11px;font-weight:700;border-radius:999px;padding:3px 9px}
+  .badge.lock{color:var(--lock);background:var(--lockbg)}
+  .badge.open{color:var(--open);background:var(--openbg)}
+  .actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:4px}
+  .btn{display:inline-block;font-size:13px;font-weight:600;text-decoration:none;padding:7px 12px;border-radius:5px;border:1px solid var(--blue);color:var(--blue);background:#fff}
+  .btn.primary{background:var(--blue);color:#fff}
+  .btn:hover{filter:brightness(.95)}
+  .meta{margin-top:auto;padding-top:8px;border-top:1px dashed var(--line);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .meta code{font-family:Consolas,Menlo,monospace;font-size:11.5px;background:#F0F3F8;padding:1px 5px;border-radius:3px}
+  .note{background:#fff;border-left:4px solid var(--orange);border-radius:6px;padding:12px 14px;font-size:13px;color:var(--muted);margin-top:24px}
+  footer{padding:0 20px 34px;font-size:12px;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <span class="kicker">Index</span>
+    <h1>Dashboards &amp; Sites</h1>
+    <p>Everything published under <strong>sveinnbjornsson.github.io</strong>, in one place.</p>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <h2>Equity research dashboards — S2F Research</h2>
+    <div class="grid">
+
+      <article class="card">
+        <div class="top">
+          <span class="ticker">ALVO</span>
+          <span class="badge lock">🔒 Password-gated</span>
+        </div>
+        <h3><a href="https://sveinnbjornsson.github.io/alvo-dashboard/">Alvotech — Live Dashboard</a></h3>
+        <p class="desc">Live quote &amp; news, S2F valuation football field, 12-month target vs. Street, forecasts, catalyst calendar, ownership, and a research summary box. Refreshed after the Q2/H1 2026 results review.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://sveinnbjornsson.github.io/alvo-dashboard/">Open dashboard</a>
+          <a class="btn" href="https://github.com/SveinnBjornsson/alvo-dashboard">Repo</a>
+        </div>
+        <div class="meta"><span>Updated <strong>21 Aug 2026</strong></span><span><code>alvo-dashboard</code></span></div>
+      </article>
+
+      <article class="card">
+        <div class="top">
+          <span class="ticker">JBTM</span>
+          <span class="badge lock">🔒 Password-gated</span>
+        </div>
+        <h3><a href="https://sveinnbjornsson.github.io/jbtm-dashboard/">JBT Marel — Live Dashboard</a></h3>
+        <p class="desc">JBT Marel live equity dashboard: BUY rating, $150 base fair value (post-Q2 2026), valuation range, forecasts, catalysts and consensus.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://sveinnbjornsson.github.io/jbtm-dashboard/">Open dashboard</a>
+          <a class="btn" href="https://github.com/SveinnBjornsson/jbtm-dashboard">Repo</a>
+        </div>
+        <div class="meta"><span>Updated <strong>7 Aug 2026</strong></span><span><code>jbtm-dashboard</code></span></div>
+      </article>
+
+    </div>
+
+    <h2>Project &amp; cost dashboards</h2>
+    <div class="grid">
+
+      <article class="card">
+        <div class="top">
+          <span class="ticker">PANIC PRODUCTION</span>
+          <span class="badge open">Public</span>
+        </div>
+        <h3><a href="https://sveinnbjornsson.github.io/heyrdu-mig-dashboard/">Heyrðu mig — Kostnaðaryfirlit</a></h3>
+        <p class="desc">Cost and income statement for the dance work <em>Heyrðu mig</em> (Panic Production): expenses by category and payer, monthly timeline, bank reconciliation, open items and PDF export. Period Jan–Aug 2026.</p>
+        <div class="actions">
+          <a class="btn primary" href="https://sveinnbjornsson.github.io/heyrdu-mig-dashboard/">Open dashboard</a>
+          <a class="btn" href="https://github.com/SveinnBjornsson/heyrdu-mig-dashboard">Repo</a>
+        </div>
+        <div class="meta"><span>Updated <strong>24 Aug 2026</strong></span><span><code>heyrdu-mig-dashboard</code></span></div>
+      </article>
+
+    </div>
+
+    <h2>Other sites</h2>
+    <div class="grid">
+
+      <article class="card">
+        <div class="top">
+          <span class="ticker">ÖKUPRÓF</span>
+          <span class="badge open">Public</span>
+        </div>
+        <h3><a href="https://sveinnbjornsson.github.io/okuprof/">Ökuprófið — æfingavefur</a></h3>
+        <p class="desc">Practice site for the written Icelandic driving test (B-flokkur): practice mode with multiple-choice questions by topic, and exam mode mirroring the real test (50 statements, 45 minutes).</p>
+        <div class="actions">
+          <a class="btn primary" href="https://sveinnbjornsson.github.io/okuprof/">Open site</a>
+          <a class="btn" href="https://github.com/SveinnBjornsson/okuprof">Repo</a>
+        </div>
+        <div class="meta"><span>Updated <strong>10 Aug 2026</strong></span><span><code>okuprof</code></span></div>
+      </article>
+
+    </div>
+
+    <div class="note">
+      🔒 Password-gated dashboards are AES-encrypted in the browser; ask Sveinn for the current password. Live prices and news on the equity dashboards are fetched client-side from Alpha Vantage when the page opens.
+    </div>
+
+  </div>
+</main>
+
+<footer>Index maintained by Sveinn Björnsson · hosted on GitHub Pages · last index update 25 Aug 2026</footer>
+</body>
+</html>
